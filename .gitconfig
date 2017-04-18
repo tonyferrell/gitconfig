@@ -1,0 +1,18 @@
+[credential]
+    helper = manager
+[user]
+    email = tony@codeawhile.com
+    name = Tony Ferrell
+[push]
+    default = simple
+[core]
+    editor = 'gvim.bat' -f
+[rebase]
+    autoSquash = true
+[alias]
+    glog = log --graph --pretty=format:'%C(cyan)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+    fshow = show --pretty="" --name-only
+[merge]
+    conflictstyle = diff3
+[status]
+  showUntrackedFiles = all
