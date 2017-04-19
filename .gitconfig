@@ -10,7 +10,7 @@
 [rebase]
     autoSquash = true
 [alias]
-    glog = log --graph --pretty=format:'%C(cyan)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+   	glog = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset'
     fshow = show --pretty="" --name-only
 [merge]
     conflictstyle = diff3
