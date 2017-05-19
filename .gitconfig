@@ -4,7 +4,7 @@
     email = tony@codeawhile.com
     name = Tony Ferrell
 [push]
-    default = simple
+    default = current
 [core]
     editor = 'gvim.bat' -f
 [rebase]
