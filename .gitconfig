@@ -10,8 +10,10 @@
 [rebase]
     autoSquash = true
 [alias]
-   	glog = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset'
+    glog = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset'
     fshow = show --pretty="" --name-only
+    fup = commit --fixup
+    sup = commit --squash
 [merge]
     conflictstyle = diff3
 [status]
