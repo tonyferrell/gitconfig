@@ -10,7 +10,8 @@
 [rebase]
     autoSquash = true
 [alias]
-    glog = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset'
+    l = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset'
+    ln = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset' -n
     fshow = show --pretty="" --name-only
     fup = commit --fixup
     sup = commit --squash
