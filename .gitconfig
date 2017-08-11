@@ -1,21 +1,19 @@
 [credential]
-    helper = manager
-[user]
-    email = tony@codeawhile.com
-    name = Tony Ferrell
+  helper = manager
 [push]
-    default = current
+  default = current
 [core]
-    editor = 'gvim.bat' -f
+  editor = 'gvim' -f
 [rebase]
-    autoSquash = true
+  autoSquash = true
 [alias]
-    l = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset'
-    ln = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset' -n
-    fshow = show --pretty="" --name-only
-    fup = commit --fixup
-    sup = commit --squash
+  l = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset'
+  ln = log --graph --pretty=format:'%C(cyan)%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%C(yellow)%d%Creset' -n
+  fshow = show --pretty="" --name-only
+  fup = commit --fixup
+  sup = commit --squash
+  pup = push -u
 [merge]
-    conflictstyle = diff3
+  conflictstyle = diff3
 [status]
   showUntrackedFiles = all
